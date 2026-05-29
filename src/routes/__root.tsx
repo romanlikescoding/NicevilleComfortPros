@@ -78,10 +78,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "Heating and Air Conditioning Services | Niceville, FL HVAC" },
       { name: "description", content: "Niceville's trusted HVAC contractor. AC repair, installation, heating & indoor air quality across the Emerald Coast. Call (850) 634-1179." },
       { name: "author", content: "Heating and Air Conditioning Services" },
-      { property: "og:title", content: "Heating and Air Conditioning Services | Niceville, FL" },
-      { property: "og:description", content: "Licensed & insured HVAC experts serving Niceville, Crestview, Fort Walton Beach & Destin." },
+      { property: "og:title", content: "Heating and Air Conditioning Services | Niceville, FL HVAC" },
+      { property: "og:description", content: "Niceville's trusted HVAC contractor. AC repair, installation, heating & indoor air quality across the Emerald Coast. Call (850) 634-1179." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
+      { name: "twitter:title", content: "Heating and Air Conditioning Services | Niceville, FL HVAC" },
+      { name: "twitter:description", content: "Niceville's trusted HVAC contractor. AC repair, installation, heating & indoor air quality across the Emerald Coast. Call (850) 634-1179." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/ffd4bcdc-a210-409e-a0f4-7040c51a4846/id-preview-f19541cd--8677ccb0-0feb-43f6-94ad-ddab508b56e1.lovable.app-1780022779699.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/ffd4bcdc-a210-409e-a0f4-7040c51a4846/id-preview-f19541cd--8677ccb0-0feb-43f6-94ad-ddab508b56e1.lovable.app-1780022779699.png" },
     ],
     links: [
       {
